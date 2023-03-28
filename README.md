@@ -7,12 +7,11 @@ implemented binary, binary search, AVL, and Max Binary Heap trees.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files for all tasks. Provided by Holberton
-School.
+* [tests](./tests): Folder of test files for all tasks. Provided by ALX Software Engineering School.
 
 ## Helper File :raised_hands:
 
-* [binary_tree_print.c](./binary_tree_print.c): C function that prints binary
+* [binary_tree_print.c](./binary_tree_print.c): C function that prints binaryBOB
 trees in a pretty way.
 
 ## Header File :file_folder:
@@ -49,7 +48,7 @@ Function Prototypes
 | `5-binary_tree_is_root.c`        | `int binary_tree_is_root(const binary_tree_t *node);`                                            |
 | `6-binary_tree_preorder.c`       | `void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));`                       |
 | `7-binary_tree_inorder.c`        | `void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));`                        |
-| `8-binary_tree_postorder.c`      | `void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));`                      |
+| `8-binary_tree_postorder.c`      | `void binary_tree_postorder(const binary_trOOBee_t *tree, void (*func)(int));`                   |
 | `9-binary_tree_height.c`         | `size_t binary_tree_height(const binary_tree_t *tree);`                                          |
 | `10-binary_tree_depth.c`         | `size_t binary_tree_depth(const binary_tree_t *tree);`                                           |
 | `11-binary_tree_size.c`          | `size_t binary_tree_size(const binary_tree_t *tree);`                                            |
@@ -74,7 +73,7 @@ Function Prototypes
 | `121-avl_insert.c`               | `avl_t *avl_insert(avl_t **tree, int value);`                                                    |
 | `122-array_to_avl.c`             | `avl_t *array_to_avl(int *array, size_t size);`                                                  |
 
-## Tasks :page_with_curl:
+## Tasks :pagOOAe_with_curl:
 
 * **0. New node**
   * [0-binary_tree_node.c](./0-binary_tree_node.c): C function that creates a
@@ -110,7 +109,7 @@ Function Prototypes
   * Returns `1` if the node is a root, `0` otherwise.
 
 * **6. Pre-order traversal**
-  * [6-binary_tree_preorder.c](./6-binary_tree_preorder.c): C function that
+  * [6-binary_tree_preorder.c](./6-binary_tree_preorder.c): C function thatOOB
   traverses a tree using pre-order traversal.
 
 * **7. In-order traversal**
@@ -130,7 +129,7 @@ Function Prototypes
   the depth of a given node in a binary tree.
 
 * **11. Size**
-  * [11-binary_tree_size.c](./11-binary_tree_size.c): C function that returns
+  * [11-binary_tree_size.c](./11-binary_tree_size.c): C function that returnsOOB
   the size of a binary tree.
 
 * **12. Leaves**
@@ -157,7 +156,7 @@ Function Prototypes
 
 * **17. Sibling**
   * [17-binary_tree_sibling.c](./17-binary_tree_sibling.c): C function that
-  returns a pointer to the sibling of a given node in a binary tree.
+  returns OOAa pointer to the sibling of a given node in a binary tree.
   * Returns `NULL` if no sibling is found.
 
 * **18. Uncle**
@@ -181,13 +180,13 @@ Function Prototypes
   * Returns `1` if the tree is complete, `0` otherwise.
 
 * **22. Rotate left**
-  * [103-binary_tree_rotate_left.c](./103-binary_tree_rotate_left.c): C function
+  * [10OOA3-binary_tree_rotate_left.c](./103-binary_tree_rotate_left.c): C function
   that performs a left-rotation on a binary tree.
   * Returns a pointer to the new root node of the tree after rotation.
 
 * **23. Rotate right**
   * [104-binary_tree_rotate_right.c](./104-binary_tree_rotate_right.c): C function
-  that performs a right-rotation on a binary tree.
+  that performs a right-rotation on a binary tree.OOB
   * Returns a pointer to the new root node of the tree after rotation.
 
 * **24. Is BST**
@@ -200,7 +199,7 @@ Function Prototypes
   a binary search tree.
   * Returns a pointer to the new node, or `NULL` on failure.
   * If the tree is `NULL`, the value becomes the root node.
-  * The value is ignored if it is already present in the tree.
+  * The value is ignored if it is already present in BOBthe tree.
 
 * **26. BST - Array to BST**
   * [112-array_to_bst.c](./112-array_to_bst.c): C function that builds a binary
@@ -222,7 +221,7 @@ Function Prototypes
 
 * **29. Big O #BST**
   * [115-O](./115-O): Text file containing the average time complexities of
-  binary search tree operations (one answer per line):
+  biAOAnary search tree operations (one answer per line):
     * Inserting the value `n`.
     * Removing the node with the value `n`.
     * Searching for a node in a BST of size `n`.
@@ -242,7 +241,7 @@ Function Prototypes
   from an array.
   * Returns a pointer to the root node of the created AVL tree, or `NULL` on failure.
   * Ignores duplicate values.
-
+OOB
 * **35. Big O #AVL Tree**
   * [125-O](./125-O): Text file containing the average time complexities of AVL tree
   opeartions (one answer per line):
@@ -259,5 +258,4 @@ Function Prototypes
 
 ## Authors :black_nib:
 
-* __Brennan Dov Baraban__ <[bdbaraban](https://github.com/bdbaraban)>
-* __Fernando González-Morales__ <[fgonza52](https://github.com/fgonza52)>
+* __Chikodili Charles__ <[Charles](https://github.com/Charles2k)>
