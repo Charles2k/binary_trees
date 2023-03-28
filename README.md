@@ -258,4 +258,4 @@ OOB
 
 ## Authors :black_nib:
 
-* __Chikodili Charles__ <[Charles](https://github.com/Charles2k)>
+* __Chikodili Charles__ <[GITHUB](https://github.com/Charles2k)>
